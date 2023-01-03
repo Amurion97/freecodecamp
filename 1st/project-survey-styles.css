@@ -1,0 +1,50 @@
+body {
+    background-image: url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg); 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+form {
+    background-color: #483D8B;
+    min-width: 300px;
+    max-width: 600px;
+    width: 60%;
+    margin: 0 auto;
+    color: white;
+    padding: 0px;
+}
+
+div{
+    margin: 10px auto;
+    border:10px solid black;
+    padding: 5px;
+    
+}
+
+h1, p[id="description"]{
+    text-align: center;
+    color: rgb(25, 238, 10);
+    border-color: blue;
+}
+
+label {
+    display: block;
+}
+
+input {
+   
+    
+    
+}
+
+input[class="textbox" ]{
+    width: 100%;
+    /*margin: 0 10px;*/
+}
+
+.note {
+    display:inline-block;
+}
+
+textarea {
+    display:block;
+}
